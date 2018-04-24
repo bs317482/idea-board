@@ -1,16 +1,21 @@
-import React, {Component} from 'react'
-import LogInPage from './LogInPage'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 
 class HomePage extends Component {
-    render(){
-        return(
-            <div>HomePage
-                <LogInPage/>
-            </div>
-            
-        )
-    }
+  render() {
+    return (
+      <div>
+
+        <div>
+          <Link to='/login'>Login Link</Link>
+        </div>
+
+        HomePage
+
+      </div>
+    )
+  }
 }
 
-
-export default HomePage 
+export default HomePage

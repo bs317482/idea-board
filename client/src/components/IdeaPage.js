@@ -1,12 +1,13 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class IdeaPage extends Component {
-    render(){
-        return(
-            <div>IdeaPage</div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        IdeaPage
+      </div>
+    )
+  }
 }
 
-
-export default IdeaPage 
+export default IdeaPage
