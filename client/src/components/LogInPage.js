@@ -35,6 +35,18 @@ class LogIn extends Component {
       <div>
         <div>
           <Link to='/'>Return Home</Link>
+          <h1>Sign-Up</h1>
+  <form onSubmit={this.handleSignUp}>
+    <div>
+      <label htmlFor="userName">User Name</label>
+      <input onChange={this.handleChange} name="userName" type="text" value={this.state.userName}/>
+    </div>
+    <div>
+      <label htmlFor="password">Password</label>
+      <input onChange={this.handleChange} name="password" type="text" value={this.state.password}/>
+    </div>
+  <button>Sign Up</button>
+</form>
         </div>
         <h1>Log-In</h1>
         <h3>Please Select an Existing User</h3>
